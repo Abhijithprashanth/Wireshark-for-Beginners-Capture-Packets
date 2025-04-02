@@ -1,4 +1,4 @@
-# Wireshark-for-Beginners-Capture-Packets
+# Capturing-Packets-using-Wireshark
 
 ## Objective
 To gain hands-on experience with Wireshark, a network protocol analyzer, by learning how to capture, filter, and analyze network packets. This project aims to provide a foundational understanding of network traffic inspection, packet structures, and protocol analysis, which are essential skills for network security, troubleshooting, and cybersecurity investigations.
@@ -64,5 +64,3 @@ Step 1: We can use a conditional statement in Wireshark to include or exclude pa
 **!(ip.addr == <ip>) and tcp.port == 443**
 Step 2: We can add multiple conditions by using parentheses to prevent excustion errors
 **!(ip.addr == <ip>) and (tcp.port == 80 or tcp.port == 443)**
-
-### 6. Capstone Task: Use Wireshark to capture and observe ethernet packets on HTTP and HTTPS ports
